@@ -1,0 +1,17 @@
+title-text: "Welcome to exa localnet"
+title-color: "#aaaaaa"
+desktop-image: "/bg.png"
++ boot_menu {
+  left=0 width=100%-32
+
+  height=100%-278 # 600-278 = 322 [ok!]
+  # margintop + marginbottom = 2x139 = 278
+  top=139 # = marginbottom = helpmenu + 32 = 139
+
+  item_color="white"
+  item_padding=0
+  item_height=32
+  item_spacing=0
+
+  selected_item_color="green"
+}
