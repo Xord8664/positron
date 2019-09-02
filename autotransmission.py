@@ -1,8 +1,6 @@
 import os
 import time
 
-os.system('transmission-daemon')
-
 dirs = {'/srv/cifs/games':['/srv/cifs/torrents/games/','games.txt'],
         '/srv/cifs/distros':['/srv/cifs/torrents/distros/','distros.txt'],
         '/srv/cifs/video':['/srv/cifs/torrents/video/','video.txt'],
